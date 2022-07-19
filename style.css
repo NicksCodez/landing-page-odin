@@ -3,16 +3,20 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     font-family: "Roboto", sans-serif;
 }
 
-#header {
+#header, #s1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 50px;
     background-color: #1F2937;
+}
+
+#header {
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 
@@ -39,3 +43,45 @@ body {
     gap: 15px;
 }
 
+#s1 {
+    padding: 40px 50px;
+}
+
+.s1-left{
+    max-width: 400px;
+}
+
+.s1-left-title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin: 8px 0px;
+}
+
+.s1-left-content{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0px;
+}
+
+.s1-left button{
+    margin: 8px 0px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 8px 16px;
+}
+
+.s1-left button a{
+    text-decoration: none;
+    color: white;
+}
+
+.s1-right{
+    flex: 0 0 auto;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    align-self: center;
+}
