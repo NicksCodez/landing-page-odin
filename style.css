@@ -79,11 +79,9 @@ body {
 }
 
 .s1-right{
-    flex: 0 0 auto;
-    width: 400px;
-    height: 200px;
+    flex: 1;
+    align-self: stretch;
     background-color: grey;
-    align-self: center;
 }
 
 #s2{
