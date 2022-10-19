@@ -9,7 +9,7 @@ body {
 
 #header, #s1{
     display: flex;
-    padding: 0px 50px;
+    padding: 0px 150px;
     background-color: #1F2937;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 #s1 {
-    padding: 40px 50px;
+    padding: 40px 150px;
 }
 
 .s1-left{
@@ -87,7 +87,7 @@ body {
 #s2{
     display: flex;
     flex-direction: column;
-    padding: 40px 80px;
+    padding: 40px 180px;
 }
 
 .s2-title{
@@ -121,3 +121,4 @@ body {
 .img-subtxt{
     text-align: center;
 }
+
